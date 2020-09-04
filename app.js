@@ -31,6 +31,6 @@ app.get('/service',(req, res) => {
 
 //Start
 //==============================================================================
-server.listen(port, function() {
+server.listen(port,'127.0.0.1', function() {
     console.log(envName,'---- Servidor corriendo en el puerto ' + port);
 });
