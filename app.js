@@ -18,8 +18,8 @@ const envName = process.env.NAME;
 
 //Configuracion
 //==============================================================================
-app.use(helmet());
 app.use(express.static(`${__dirname}/public`));
+app.use(helmet());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
