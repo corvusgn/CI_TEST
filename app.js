@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get('/service',(req, res) => {
-    res.send({env: envName, response: 'cambio11 --- ' + new Date().getTime()});
+    res.send({env: envName, response: 'cambio12 --- ' + new Date().getTime()});
 })
 
 
